@@ -23,8 +23,8 @@ import { Button, Card } from "react-bootstrap";
 
   return (
     <div>
-      <Card>
-        <Card.Img  src={Pizza_1.img} />
+      <Card className="Cart_container">
+        <Card.Img className="CardImg" src={Pizza_1.img} />
         <Card.Body>
           <Card.Title>{Pizza_1.name}</Card.Title>
           <Card.Text>{Pizza_1.desc}</Card.Text>

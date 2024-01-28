@@ -26,7 +26,7 @@
     {
       "desc": "Pizza hawaiana es una pizza originaria de Canadá, que se prepara con salsa de tomate, queso mozzarella, jamón y piña. A veces también se le agrega tocino. La combinación de ingredientes salados y dulces es muy popular y puede convertir a algunos miembros de la familia que no les gusta la piña en amantes de la pizza hawaiana",
       "id": "c9848",
-      "img": "https://http.pizza/304.jpg",
+      "img":"https://http.pizza/304.jpg",
       "ingredients": ["salsa de tomate", "queso mozzarella", "jamón", "piña"],
       "name": "Pizza hawaiana",
       "price": 12

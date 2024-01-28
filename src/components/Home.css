@@ -1,0 +1,52 @@
+.CardImg {
+    width: 300px;
+  }
+  
+  .Cart_container {
+    width: 24rem;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    height: 37.5rem;
+    background-color: chartreuse; 
+  }
+  .body_Cart {
+    height: 24rem;
+    background-color: aqua;
+    text-align: center;
+  }
+  .title_Cart {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .text_Cart {
+    font-size: 14px;
+    margin: 0%;
+    width: 100%;
+    
+    
+  }
+  .Home_cart {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    
+    gap: 2rem;
+  }
+  .Button_Car {
+    margin: 0.25rem;
+    
+  }
+  .button_container {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0.5rem;
+    background-color: bisque;
+  }
+  .col_container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: red;
+  }
