@@ -1,0 +1,6 @@
+.Nav {
+width: 100%;
+background-color: chartreuse;
+display: flex;
+justify-content: flex-start;
+}

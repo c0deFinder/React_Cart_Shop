@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { MyContext } from "../Context/MyContext";
 import { Card, Button } from 'react-bootstrap';
-import "./Home.css"
+import './Home.css'
 
 
 const Home = () => {
@@ -26,11 +26,11 @@ const Home = () => {
              <Card.Text className="text_Cart" key={ingredient}>{ingredient}</Card.Text>
            ))}
            <Card.Text className="text_Cart">Precio: ${pizzasData.price}</Card.Text>
-           <div className="button_container">
+          </Card.Body>
+          <div className="button_container">
                <Button className="Button_Cart" onClick={() => addItem(pizzasData)}>Añadir</Button>
                <Button className="Button_Cart" onClick={() => navigate(`/pizza/${pizzasData.id}`)}>Ver Más</Button>
             </div>
-          </Card.Body>
         </Card>
         </div>
         ))}

@@ -2,23 +2,23 @@
     {
       "desc": "La pizza napolitana es un tipo de pizza originaria de Nápoles, Italia. Esta pizza se prepara con ingredientes simples y frescos: una masa básica, tomates crudos, queso mozzarella fresco, albahaca fresca y aceite de oliva. ¡No se permiten ingredientes extravagantes!",
       "id": "c1232",
-      "img": "https://http.pizza/226.jpg",
+      "img": "./src/assets/pizzas/1.jpg",
       "ingredients": ["Masa básica", "Tomates crudos", "Queso mozzarella fresco", "oAlbahaca fresca","Aceite de oliva"],
-      "name": "napolitana",
+      "name": "Pizza Napolitana",
       "price": 11
     },
     {
       "desc": "La pizza vegetariana es una pizza que no contiene carne. Los ingredientes de la pizza vegetariana pueden variar, pero generalmente incluyen una base de masa de pizza, salsa de tomate, queso, y una variedad de verduras frescas. Algunas verduras comunes que se utilizan en la pizza vegetariana son los pimientos, cebolla, champiñones, aceitunas, tomates, espinacas, y alcachofas. También se pueden agregar hierbas frescas como el orégano y la albahaca para darle más sabor",
       "id": "c4353",
-      "img": "https://http.pizza/207.jpg",
+      "img": "./src/assets/pizzas/2.jpg",
       "ingredients": ["mozzarella", "tomates", "jamón", "choricillo"],
-      "name": "vegetariana",
+      "name": "Pizza Vegetariana",
       "price": 12
     },
     {
       "desc": "La pizza alemana con salchichas es una pizza originaria de Alemania. Los ingredientes comunes de esta pizza son: masa de pizza, salsa de tomate, queso mozzarella, salchichas alemanas, cebolla, pimiento y pepinillos agridulces",
       "id": "c8230",
-      "img": "https://http.pizza/100.jpg",
+      "img": "./src/assets/pizzas/4.jpg",
       "ingredients": ["Salsa de tomate", "Queso mozzarella", "Salchichas alemanas", "Pepinillos agridulces","Pimiento"],
       "name": "Pizza Alemana con salchichas",
       "price": 10
@@ -26,7 +26,7 @@
     {
       "desc": "Pizza hawaiana es una pizza originaria de Canadá, que se prepara con salsa de tomate, queso mozzarella, jamón y piña. A veces también se le agrega tocino. La combinación de ingredientes salados y dulces es muy popular y puede convertir a algunos miembros de la familia que no les gusta la piña en amantes de la pizza hawaiana",
       "id": "c9848",
-      "img":"https://http.pizza/304.jpg",
+      "img":"./src/assets/pizzas/6.jpg",
       "ingredients": ["salsa de tomate", "queso mozzarella", "jamón", "piña"],
       "name": "Pizza hawaiana",
       "price": 12
@@ -34,7 +34,7 @@
     {
       "desc": "La pizza de pollo es una pizza que se prepara con salsa de tomate, queso mozzarella y trozos de pollo cocido. A menudo se le agrega cebolla, pimiento y otros ingredientes para darle más sabor. Es una pizza deliciosa y fácil de hacer en casa. Aquí te dejo una receta de pizza de pollo que puedes seguir",
       "id": "c0295",
-      "img": "https://http.pizza/522.jpg",
+      "img": "./src/assets/pizzas/7.jpg",
       "ingredients": ["mozzarella", "Salsa de tomate", "Pechuga de pollo cocida y desmenuzada", "Pimiento picado"],
       "name": "Pizza de pollo",
       "price": 10
@@ -42,7 +42,7 @@
     {
       "desc": "La pizza Margarita es una pizza napolitana elaborada con tomate, mozzarella (tradicionalmente se usa el Fior di latte), albahaca fresca, sal y aceite de oliva. Es una pizza simple pero deliciosa que se ha convertido en una de las pizzas más populares del mundo. La pizza Margarita se originó en Nápoles, Italia, y se dice que fue creada en honor a la reina Margarita de Saboya en 1889..",
       "id": "c9303",
-      "img": "https://http.pizza/451.jpg",
+      "img": "./src/assets/pizzas/8.jpg",
       "ingredients": ["mozzarella", "pimientos", "Salsa de tomate", "Albahaca fresca","Aceite de oliva"],
       "name": "Pizza Margarita",
       "price": 8
