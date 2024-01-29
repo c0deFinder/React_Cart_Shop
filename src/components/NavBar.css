@@ -1,6 +1,7 @@
 .Nav {
 width: 100%;
-background-color: chartreuse;
+background-color: rgb(255, 251, 0);
 display: flex;
 justify-content: flex-start;
+margin-bottom: 1rem;
 }

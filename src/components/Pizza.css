@@ -13,7 +13,7 @@
   .body_Cart {
     height: 12rem;
     width: 100%;
-    background-color: aqua;
+    background-color: orangered;
    
     
     
@@ -26,12 +26,13 @@
   .text_Cart {
     font-size: 14px;
     margin: 0%;
-    width: 100%; 
+    width: 100%;
+    
   }
   .Home_cart {
     display: flex;
     flex-wrap: wrap;
-    background-color: aquamarine;
+   
     
     gap: 2rem;
   }
@@ -45,7 +46,7 @@
    justify-content: center;
     width: 100%;
     margin: 0.5rem;
-    background-color: bisque;
+    
   }
   .col_container {
     display: flex;
