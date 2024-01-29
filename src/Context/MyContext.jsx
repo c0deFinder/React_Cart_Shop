@@ -1,11 +1,11 @@
-import React, { useState, useEffect, createContext } from "react";
+import { useState, useEffect, createContext } from "react";
 import Data from "../Data/Data.json";
 
 export const MyContext = createContext();
 
 export const MyProvider = ({ children }) => {
   const [pizzas, setPizzas] = useState([]);
-  const [cart, setCart] = useState([]);
+  const [Cart_Shop, setCart] = useState([]);
 
   useEffect(() => {
     setPizzas(Data);
@@ -17,14 +17,14 @@ export const MyProvider = ({ children }) => {
 
   const removeItem = (pizzaId) => {
     setCart((currentCart) =>
-      currentCart.filter((pizza) => pizza.id !== pizzaId)
+      currentCart.filter((pizza) => pizza.id !== pizzaId)[0]
     );
   };
  
 
   return (
     <MyContext.Provider
-      value={{ pizzas, cart, addItem, removeItem }}
+      value={{ pizzas, Cart_Shop, addItem, removeItem }}
     >
       {children}
     </MyContext.Provider>

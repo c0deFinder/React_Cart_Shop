@@ -3,7 +3,7 @@
       "desc": "La pizza napolitana es un tipo de pizza originaria de Nápoles, Italia. Esta pizza se prepara con ingredientes simples y frescos: una masa básica, tomates crudos, queso mozzarella fresco, albahaca fresca y aceite de oliva. ¡No se permiten ingredientes extravagantes!",
       "id": "c1232",
       "img": "./src/assets/pizzas/1.jpg",
-      "ingredients": ["Masa básica", "Tomates crudos", "Queso mozzarella fresco", "oAlbahaca fresca","Aceite de oliva"],
+      "ingredients": ["Masa básica", "Tomates crudos", "Queso mozzarella fresco", "Albahaca fresca","Aceite de oliva"],
       "name": "Pizza Napolitana",
       "price": 11
     },

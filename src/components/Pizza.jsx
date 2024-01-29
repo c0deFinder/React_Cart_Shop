@@ -9,9 +9,9 @@ import './Pizza.css'
   const { id } = useParams();
   const navigate = useNavigate();
   function addItem(pizza) {
-    const cart = JSON.parse(localStorage.getItem("cart")) || [];
-    cart.push(pizza);
-    localStorage.setItem("cart", JSON.stringify(cart));
+    const Cart_Shop = JSON.parse(localStorage.getItem("Cart_Shop")) || [];
+    Cart_Shop.push(pizza);
+    localStorage.setItem("Cart_Shop", JSON.stringify(Cart_Shop));
     navigate("/carrito");
 
   }
@@ -26,7 +26,7 @@ import './Pizza.css'
   return (
     <div>
       <Card className={newLocal}>
-        <Card.Img className="CardImg" src={Pizza_1.img} />
+        <Card.Img className="CardImg_1" src={Pizza_1.img} />
         <Card.Body>
           <Card.Title>{Pizza_1.name}</Card.Title>
           <Card.Text>{Pizza_1.desc}</Card.Text>
@@ -36,8 +36,8 @@ import './Pizza.css'
           <Card.Text>Precio: ${Pizza_1.price}</Card.Text>
         </Card.Body>
         <div>
-          <Button onClick={() => addItem(Pizza_1)}>Añadir</Button>
-          <Button onClick={() => navigate("/home")}>Volver</Button>
+          <Button  onClick={() => addItem(Pizza_1)}>Añadir</Button>
+          <Button className="Button_Cart" onClick={() => navigate("/home")}>Volver</Button>
         </div>
       </Card>
     </div>

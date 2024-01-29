@@ -8,7 +8,7 @@
    align-items: center;
     justify-content: center;
     height: 20rem;
-    background-color: chartreuse; 
+     
   }
   .body_Cart {
     height: 12rem;
@@ -35,14 +35,15 @@
     
     gap: 2rem;
   }
-  .Button_Car {
-    margin: 0.25rem;
+  .Button_Cart {
+    margin: 0.50rem;
     
   }
   .button_container {
     display: flex;
-    justify-content: space-between;
-    width: 200px;
+   align-items: center;
+   justify-content: center;
+    width: 100%;
     margin: 0.5rem;
     background-color: bisque;
   }
@@ -50,5 +51,9 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    background-color: red;
+    
   }
+  .CardImg_1 {
+    width: 400px;
+
+}

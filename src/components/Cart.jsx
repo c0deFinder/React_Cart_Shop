@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Cart = () => {
+export function Cart_Shop() {
   return (
     <div>Cart</div>
   )

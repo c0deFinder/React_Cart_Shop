@@ -19,14 +19,18 @@
     
   }
   .title_Cart {
-    
+    display: flex;
+    align-items: flex-start;
+    font-size: 23px;
     font-size: 1.5rem;
     font-weight: 600;
   }
   .text_Cart {
     font-size: 14px;
     margin: 0%;
-    width: 100%; 
+    width: 100%;
+    display: flex; 
+    align-items: flex-start;
   }
   .Home_cart {
     display: flex;
@@ -41,7 +45,7 @@
   }
   .button_container {
     display: flex;
-    justify-content: space-between;
+    
     width: 200px;
     margin: 0.5rem;
     background-color: bisque;
