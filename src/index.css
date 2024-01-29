@@ -81,3 +81,8 @@ button:focus-visible {
 .Active {
   color: blue;
 }
+
+.error {
+  color: crimson;
+  font-size: 10rem;
+}

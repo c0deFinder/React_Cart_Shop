@@ -2,6 +2,6 @@ import React from 'react'
 
 export function Cart_Shop() {
   return (
-    <div>Cart</div>
+    <div className='error'>404 not Found</div>
   )
 }

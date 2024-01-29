@@ -30,13 +30,13 @@ const Pizza = () => {
     <div>
       <Card className="Cart_container">
         <Card.Img className="CardImg_1" src={pizzaItem ? pizzaItem.img : ''} />
-        <Card.Body>
-          <Card.Title>{pizzaItem ? pizzaItem.name : 'Pizza Not Found'}</Card.Title>
-          <Card.Text>{pizzaItem ? pizzaItem.desc : 'Description Not Available'}</Card.Text>
+        <Card.Body className="Card_Body-pizza">
+          <Card.Title className="Card_Tittle-pizza">{pizzaItem ? pizzaItem.name : 'Pizza Not Found'}</Card.Title>
+          <Card.Text className="Card_Text-pizza">{pizzaItem ? pizzaItem.desc : 'Description Not Available'}</Card.Text>
           {pizzaItem && pizzaItem.ingredients.map((ingredient) => (
-            <Card.Text key={ingredient}>{ingredient}</Card.Text>
+            <Card.Text className="Card_p_pizza" key={ingredient}>{ingredient}</Card.Text>
           ))}
-          <Card.Text>{pizzaItem ? `Precio: $${pizzaItem.price}` : 'Price Not Available'}</Card.Text>
+          <Card.Text className="Card_p_pizza">{pizzaItem ? `Precio: $${pizzaItem.price}` : 'Price Not Available'}</Card.Text>
         </Card.Body>
         <div>
           <Button onClick={() => addItem(pizzaItem)}>Añadir</Button>
