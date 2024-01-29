@@ -35,7 +35,7 @@
       "desc": "La pizza de pollo es una pizza que se prepara con salsa de tomate, queso mozzarella y trozos de pollo cocido. A menudo se le agrega cebolla, pimiento y otros ingredientes para darle más sabor. Es una pizza deliciosa y fácil de hacer en casa. Aquí te dejo una receta de pizza de pollo que puedes seguir",
       "id": "c0295",
       "img": "./src/assets/pizzas/7.jpg",
-      "ingredients": ["mozzarella", "Salsa de tomate", "Pechuga de pollo cocida y desmenuzada", "Pimiento picado"],
+      "ingredients": ["mozzarella", "Salsa de tomate", "Pechuga de pollo cocida", "Pimiento picado"],
       "name": "Pizza de pollo",
       "price": 10
     },

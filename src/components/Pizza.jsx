@@ -27,7 +27,7 @@ const Pizza = () => {
   const pizzaItem = searchPizza(id);
 
   return (
-    <div>
+    <div className="Card_Box-2">
       <Card className="Cart_container">
         <Card.Img className="CardImg_1" src={pizzaItem ? pizzaItem.img : ''} />
         <Card.Body className="Card_Body-pizza">

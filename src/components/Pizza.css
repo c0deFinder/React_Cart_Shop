@@ -3,7 +3,7 @@
   }
   
   .Cart_container {
-    width: 24rem;
+    width: 30rem;
     display: flex;
    align-items: center;
     justify-content: center;
@@ -56,4 +56,7 @@
   .CardImg_1 {
     width: 400px;
 
+}
+.Card_Box-2 {
+    height: 100%;
 }
