@@ -62,10 +62,12 @@
 }
 .Card_Box-2 {
     height: 100%;
+    
 }
 .Card_Box-3 {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
 }
 .buttons_cointainer-pizza {
   
