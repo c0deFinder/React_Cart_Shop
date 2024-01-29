@@ -1,18 +1,21 @@
 .CardImg_1 {
     width: 400px;
+    height: 100%;
+    margin: 10px;
   }
   
-  .Cart_container {
-    width: 30rem;
+  .Cart_container-pizza {
     display: flex;
    align-items: center;
     justify-content: center;
-    height: 20rem;
+    height: 10rem;
+    width: 100%;
      
   }
   .Card_Body-pizza{
     background-color: orangered;
     color: cornsilk;
+    border-radius: 0.5rem;
     
   }
   .Card_Tittle-pizza {
@@ -54,9 +57,19 @@
     
   }
   .CardImg_1 {
-    width: 400px;
+    width: 300px;
 
 }
 .Card_Box-2 {
     height: 100%;
+}
+.Card_Box-3 {
+    display: flex;
+    align-items: flex-start;
+}
+.buttons_cointainer-pizza {
+  
+    align-items: start;
+    
+    width: 100%;
 }

@@ -28,7 +28,8 @@ const Pizza = () => {
 
   return (
     <div className="Card_Box-2">
-      <Card className="Cart_container">
+      <Card className="Cart_container-pizza">
+      <div className="Card_Box-3">
         <Card.Img className="CardImg_1" src={pizzaItem ? pizzaItem.img : ''} />
         <Card.Body className="Card_Body-pizza">
           <Card.Title className="Card_Tittle-pizza">{pizzaItem ? pizzaItem.name : 'Pizza Not Found'}</Card.Title>
@@ -37,11 +38,13 @@ const Pizza = () => {
             <Card.Text className="Card_p_pizza" key={ingredient}>{ingredient}</Card.Text>
           ))}
           <Card.Text className="Card_p_pizza">{pizzaItem ? `Precio: $${pizzaItem.price}` : 'Price Not Available'}</Card.Text>
-        </Card.Body>
-        <div>
+          <div className="buttons_cointainer-pizza">
           <Button onClick={() => addItem(pizzaItem)}>Añadir</Button>
           <Button className="Button_Cart" onClick={() => navigate("/home")}>Volver</Button>
         </div>
+        </Card.Body>
+        </div>
+       
       </Card>
     </div>
   );
