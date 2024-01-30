@@ -10,9 +10,9 @@ const Pizza = () => {
   const navigate = useNavigate();
 
   const addItem = (pizza) => {
-    const cartShop = JSON.parse(localStorage.getItem("Cart_Shop")) || [];
-    cartShop.push(pizza);
-    localStorage.setItem("Cart_Shop", JSON.stringify(cartShop));
+    const Cart_Shop = JSON.parse(localStorage.getItem("Cart_Shop")) || [];
+    Cart_Shop.push(pizza);
+    localStorage.setItem("Cart_Shop", JSON.stringify(Cart_Shop));
     navigate("/carrito");
   };
 

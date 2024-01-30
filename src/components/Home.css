@@ -11,7 +11,7 @@
     
   }
   .body_Cart {
-    height: 12rem;
+    height: 15rem;
     width: 100%;
     background-color: orangered;
    
@@ -46,6 +46,7 @@
   }
   .Button_Car {
     margin: 0.25rem;
+    
     
   }
   .button_container {
